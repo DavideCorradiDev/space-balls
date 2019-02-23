@@ -1,0 +1,1344 @@
+# depslib dependency file v1.0
+1435531779 source:c:\users\davide\documents\code\spaceballs\source\application\application.cpp
+	<Application/Application.hpp>
+	<Application/AppConstants.hpp>
+	<Application/AppStateMainMenu.hpp>
+	<Application/AppStateUnfocused.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1435517301 c:\users\davide\documents\code\spaceballs\include\application\application.hpp
+	<Application/AppStateStack.hpp>
+	<ResourceSystem/Resources.hpp>
+	<Utilities/NonCopyable.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Text.hpp>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\utf.inl
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\string.inl
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\thread.inl
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\threadlocalptr.inl
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\vector2.inl
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\system\vector3.inl
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\contextsettings.hpp
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1429304851 c:\users\davide\documents\code\sfml-2.2\include\sfml\window\windowstyle.hpp
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\rect.inl
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\primitivetype.hpp
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\resourcesystem\beveleddisplay.hpp
+	<Utilities/NonCopyable.hpp>
+	<SFML/Graphics.hpp>
+	<string>
+
+1435517244 c:\users\davide\documents\code\spaceballs\include\resourcesystem\resources.hpp
+	<ResourceSystem/AnimationHolder.hpp>
+	<ResourceSystem/FontHolder.hpp>
+	<ResourceSystem/SoundBufferHolder.hpp>
+	<ResourceSystem/TextureHolder.hpp>
+	<ResourceSystem/MusicPlayer.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1435531756 c:\users\davide\documents\code\spaceballs\include\resourcesystem\soundbufferholder.hpp
+	<ResourceSystem/ResourceHolder.hpp>
+	<SFML/Audio.hpp>
+
+1434235684 c:\users\davide\documents\code\spaceballs\include\resourcesystem\resourceholder.hpp
+	<Utilities/NonCopyable.hpp>
+	<string>
+	<map>
+	<memory>
+	"../../source/ResourceSystem/ResourceHolder.inl"
+
+1434235738 c:\users\davide\documents\code\spaceballs\source\resourcesystem\resourceholder.inl
+	<cassert>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1429304849 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1429304850 c:\users\davide\documents\code\sfml-2.2\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1435530848 c:\users\davide\documents\code\spaceballs\include\resourcesystem\textureholder.hpp
+	<ResourceSystem/ResourceHolder.hpp>
+	<SFML/Graphics.hpp>
+
+1433692889 c:\users\davide\documents\code\spaceballs\include\resourcesystem\fontholder.hpp
+	<ResourceSystem/ResourceHolder.hpp>
+	<SFML/Graphics.hpp>
+
+1433535372 c:\users\davide\documents\code\spaceballs\include\application\appstatestack.hpp
+	<Utilities/NonCopyable.hpp>
+	<Application/AppState.hpp>
+	<ResourceSystem/Resources.hpp>
+	<vector>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\application\appstate.hpp
+	<ResourceSystem/Resources.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/System/Time.hpp>
+	<memory>
+
+1431880569 c:\users\davide\documents\code\spaceballs\include\application\appstatetype.hpp
+
+1435514688 c:\users\davide\documents\code\spaceballs\include\application\appstatemainmenu.hpp
+	<Application/AppState.hpp>
+	<GameWorld/GameWorld.hpp>
+	<Gui/GuiContainer.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\gui\guicontainer.hpp
+	<Gui/GuiComponent.hpp>
+	<vector>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\gui\guicomponent.hpp
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	<memory>
+
+1435513622 c:\users\davide\documents\code\spaceballs\include\application\appstategame.hpp
+	<Application/AppState.hpp>
+	<GameWorld/GameWorld.hpp>
+	<Gui/GuiContainer.hpp>
+	<Gui/GuiLabel.hpp>
+	<Gui/GuiLivesTrack.hpp>
+	<memory>
+
+1435423429 c:\users\davide\documents\code\spaceballs\include\application\appstategameover.hpp
+	<Application/AppState.hpp>
+	<Gui/GuiContainer.hpp>
+	<Gui/GuiTextBox.hpp>
+	<memory>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\application\appstate.cpp
+	<Application/AppState.hpp>
+	<Application/AppStateStack.hpp>
+
+1435517727 source:c:\users\davide\documents\code\spaceballs\source\application\appstategame.cpp
+	<Application/AppStateGame.hpp>
+	<Application/AppStateStack.hpp>
+	<Application/AppStatePaused.hpp>
+	<Application/AppStateGameOver.hpp>
+	<Application/AppStateTimedPause.hpp>
+	<EntitySystem/EDSpawner.hpp>
+	<EntitySystem/EDStaticPicture.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<Utilities/Randomizer.hpp>
+
+1435518672 source:c:\users\davide\documents\code\spaceballs\source\application\appstategameover.cpp
+	<Application/AppStateGameOver.hpp>
+	<Application/AppStateScoreScreen.hpp>
+	<Application/AppStateMainMenu.hpp>
+	<Application/AppStateStack.hpp>
+	<Gui/GuiLabel.hpp>
+	<Gui/GuiButton.hpp>
+	<Gui/GuiTextBox.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<string>
+
+1435422250 c:\users\davide\documents\code\spaceballs\include\utilities\utilitymethods.hpp
+	<SFML/Graphics.hpp>
+	<cmath>
+	<string>
+	<sstream>
+
+1435518569 source:c:\users\davide\documents\code\spaceballs\source\application\appstatemainmenu.cpp
+	<Application/AppStateMainMenu.hpp>
+	<Application/AppStateStack.hpp>
+	<Application/AppStateGame.hpp>
+	<Application/AppStateScoreScreen.hpp>
+	<Gui/GuiLabel.hpp>
+	<Gui/GuiButton.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434840265 c:\users\davide\documents\code\spaceballs\include\gui\guilabel.hpp
+	<Gui/GuiComponent.hpp>
+	<string>
+
+1433535372 source:c:\users\davide\documents\code\spaceballs\source\application\appstatestack.cpp
+	<Application/AppStateStack.hpp>
+	<cassert>
+	<iostream>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\gui\guicomponent.cpp
+	<Gui/GuiComponent.hpp>
+
+1434833687 source:c:\users\davide\documents\code\spaceballs\source\gui\guicontainer.cpp
+	<Gui/GuiContainer.hpp>
+
+1435507451 source:c:\users\davide\documents\code\spaceballs\source\gui\guilabel.cpp
+	<Gui/GuiLabel.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434881806 source:c:\users\davide\documents\code\spaceballs\source\main.cpp
+	<Application/Application.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\resourcesystem\beveleddisplay.cpp
+	<ResourceSystem/BeveledDisplay.hpp>
+	<Application/AppConstants.hpp>
+	<cassert>
+
+1435517748 source:c:\users\davide\documents\code\spaceballs\source\resourcesystem\resources.cpp
+	<ResourceSystem/Resources.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\utilities\randomizer.cpp
+	<Utilities/Randomizer.hpp>
+	<chrono>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\utilities\randomizer.hpp
+	<random>
+
+1435422291 source:c:\users\davide\documents\code\spaceballs\source\utilities\utilitymethods.cpp
+	<Utilities/UtilityMethods.hpp>
+	<ResourceSystem/AnimatedSprite.hpp>
+	<cmath>
+
+1435447793 c:\users\davide\documents\code\spaceballs\include\application\appconstants.hpp
+	<SFML/System/String.hpp>
+	<ResourceSystem/FontHolder.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\utilities\noncopyable.hpp
+
+1434839056 c:\users\davide\documents\code\spaceballs\include\application\appstatepaused.hpp
+	<Application/AppState.hpp>
+	<Gui/GuiContainer.hpp>
+
+1435514773 source:c:\users\davide\documents\code\spaceballs\source\application\appstatepaused.cpp
+	<Application/AppStatePaused.hpp>
+	<Application/AppStateStack.hpp>
+	<Application/AppStateMainMenu.hpp>
+	<Gui/GuiLabel.hpp>
+	<Gui/GuiButton.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\application\appstateunfocused.hpp
+	<Application/AppState.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\application\appstateunfocused.cpp
+	<Application/AppStateUnfocused.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\messagesystem\message.cpp
+	<MessageSystem/Message.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\message.hpp
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\messagesystem\messagehandler.cpp
+	<MessageSystem/MessageHandler.hpp>
+	<MessageSystem/Message.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\messagehandler.hpp
+	<functional>
+	<map>
+	<typeindex>
+
+1436044649 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\component.cpp
+	<EntitySystem/Component.hpp>
+	<EntitySystem/Entity.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgSetPose.hpp>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\entitysystem\component.hpp
+	<EntitySystem/GameObject.hpp>
+	<SFML/Graphics/Transformable.hpp>
+
+1434207166 c:\users\davide\documents\code\spaceballs\include\entitysystem\gameobject.hpp
+	<MessageSystem/MessageHandler.hpp>
+	<Utilities/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+
+1433536529 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\entity.cpp
+	<EntitySystem/Entity.hpp>
+	<EntitySystem/Component.hpp>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\entitysystem\entity.hpp
+	<EntitySystem/GameObject.hpp>
+	<list>
+
+1436044745 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\gameobject.cpp
+	<EntitySystem/GameObject.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<EntitySystem/GameSystemBase.hpp>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgchangestatus.hpp
+	<MessageSystem/Message.hpp>
+	<EntitySystem/GameObject.hpp>
+
+1433612565 c:\users\davide\documents\code\spaceballs\include\entitysystem\entitysystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<EntitySystem/Entity.hpp>
+
+1433680545 c:\users\davide\documents\code\spaceballs\include\entitysystem\gamesystem.hpp
+	<EntitySystem/GameSystemBase.hpp>
+	<EntitySystem/GameObject.hpp>
+	<SFML/System/Time.hpp>
+	<memory>
+	<list>
+	<cassert>
+	"../../source/EntitySystem/GameSystem.inl"
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\entitysystem\gamesystembase.hpp
+	<MessageSystem/MessageHandler.hpp>
+
+1433681112 c:\users\davide\documents\code\spaceballs\source\entitysystem\gamesystem.inl
+
+1433612557 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\entitysystem.cpp
+	<EntitySystem/EntitySystem.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\gamesystembase.cpp
+	<EntitySystem/GameSystemBase.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgposedisplacement.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Vector2.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rclabel.cpp
+	<RenderSystem/RCLabel.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\rendersystem\rclabel.hpp
+	<RenderSystem/RenderComponent.hpp>
+
+1434288775 c:\users\davide\documents\code\spaceballs\include\rendersystem\rendercomponent.hpp
+	<EntitySystem/Component.hpp>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rcshape.cpp
+	<RenderSystem/RCShape.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\rendersystem\rcshape.hpp
+	<RenderSystem/RenderComponent.hpp>
+	<memory>
+
+1434289298 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rendercomponent.cpp
+	<RenderSystem/RenderComponent.hpp>
+	<MessageSystem/MsgSetVisible.hpp>
+
+1433535180 c:\users\davide\documents\code\spaceballs\include\rendersystem\rendersystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<RenderSystem/RenderComponent.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1433535180 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rendersystem.cpp
+	<RenderSystem/RenderSystem.hpp>
+
+1433609574 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rcsprite.cpp
+	<RenderSystem/RCSprite.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1433609568 c:\users\davide\documents\code\spaceballs\include\rendersystem\rcsprite.hpp
+	<RenderSystem/RenderComponent.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\inputsystem\inputcomponent.cpp
+	<InputSystem/InputComponent.hpp>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\inputsystem\inputcomponent.hpp
+	<EntitySystem/Component.hpp>
+	<InputSystem/InputCode.hpp>
+
+1434238026 c:\users\davide\documents\code\spaceballs\include\inputsystem\inputcode.hpp
+
+1434281238 source:c:\users\davide\documents\code\spaceballs\source\inputsystem\inputsystem.cpp
+	<InputSystem/InputSystem.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\inputsystem\inputsystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<InputSystem/InputComponent.hpp>
+	<SFML/Window/Event.hpp>
+	<vector>
+
+1434238153 source:c:\users\davide\documents\code\spaceballs\source\inputsystem\icplayership.cpp
+	<InputSystem/ICPlayerShip.hpp>
+	<MessageSystem/MsgCmdTurnLeft.hpp>
+	<MessageSystem/MsgCmdTurnRight.hpp>
+	<MessageSystem/MsgCmdAccelerate.hpp>
+	<MessageSystem/MsgCmdStop.hpp>
+	<MessageSystem/MsgCmdAttack.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\inputsystem\icplayership.hpp
+	<InputSystem/InputComponent.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcmdturnleft.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Time.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcmdturnright.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Time.hpp>
+
+1434238274 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcmdaccelerate.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Time.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcmdattack.hpp
+	<MessageSystem/Message.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gameplaycomponent.cpp
+	<GameplaySystem/GameplayComponent.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gameplaycomponent.hpp
+	<EntitySystem/Component.hpp>
+
+1434876570 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gameplaysystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<GameplaySystem/GameplayComponent.hpp>
+	<SFML/System/Time.hpp>
+
+1435513941 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gameplaysystem.cpp
+	<GameplaySystem/GameplaySystem.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<MessageSystem/MsgGameOver.hpp>
+	<MessageSystem/MsgTimedPause.hpp>
+	<MessageSystem/MsgShipDestroyed.hpp>
+	<MessageSystem/MsgSpaceBallDestroyed.hpp>
+	<MessageSystem/MsgVarScoreChanged.hpp>
+	<MessageSystem/MsgVarLivesChanged.hpp>
+
+1435532272 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcship.cpp
+	<GameplaySystem/GCShip.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<MessageSystem/MsgCmdTurnLeft.hpp>
+	<MessageSystem/MsgCmdTurnRight.hpp>
+	<MessageSystem/MsgCmdAccelerate.hpp>
+	<MessageSystem/MsgCmdStop.hpp>
+	<MessageSystem/MsgCmdAttack.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgVelocityVariation.hpp>
+	<MessageSystem/MsgContact.hpp>
+	<MessageSystem/MsgContactBullet.hpp>
+	<MessageSystem/MsgContactShip.hpp>
+	<MessageSystem/MsgContactSpaceBall.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+	<MessageSystem/MsgShipDestroyed.hpp>
+	<MessageSystem/MsgSetVisible.hpp>
+	<MessageSystem/MsgShipPosition.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<EntitySystem/EDBullet.hpp>
+	<EntitySystem/EDShip.hpp>
+	<EntitySystem/EDExplosion.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<iostream>
+
+1434289662 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcship.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+
+1433681520 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\contactshape.cpp
+	<PhysicsSystem/ContactShape.hpp>
+	<PhysicsSystem/CSAxisAlignedRectangle.hpp>
+	<PhysicsSystem/CSCircle.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<functional>
+	<map>
+	<typeindex>
+	<memory>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\physicssystem\contactshape.hpp
+	<PhysicsSystem/ContactInformation.hpp>
+	<SFML/Graphics/Transformable.hpp>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\physicscomponent.cpp
+	<PhysicsSystem/PhysicsComponent.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<cassert>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\physicssystem\physicscomponent.hpp
+	<EntitySystem/Component.hpp>
+	<PhysicsSystem/ContactShape.hpp>
+	<memory>
+
+1433435717 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\contactinformation.cpp
+	<PhysicsSystem/ContactInformation.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\physicssystem\contactinformation.hpp
+	<SFML/System/Vector2.hpp>
+
+1433537913 c:\users\davide\documents\code\spaceballs\include\physicssystem\csaxisalignedrectangle.hpp
+	<PhysicsSystem/ContactShape.hpp>
+
+1433537842 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\csaxisalignedrectangle.cpp
+	<PhysicsSystem/CSAxisAlignedRectangle.hpp>
+	<cassert>
+
+1435447393 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\physicssystem.cpp
+	<PhysicsSystem/PhysicsSystem.hpp>
+	<MessageSystem/MsgContact.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1433680578 c:\users\davide\documents\code\spaceballs\include\physicssystem\physicssystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<PhysicsSystem/PCKinematicBody.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcontact.hpp
+	<MessageSystem/Message.hpp>
+	<PhysicsSystem/ContactInformation.hpp>
+
+1434361247 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\pckinematicbody.cpp
+	<PhysicsSystem/PCKinematicBody.hpp>
+	<PhysicsSystem/PSConstants.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgVelocityVariation.hpp>
+	<MessageSystem/MsgAccelerationVariation.hpp>
+	<algorithm>
+	<cassert>
+
+1434288450 c:\users\davide\documents\code\spaceballs\include\physicssystem\pckinematicbody.hpp
+	<PhysicsSystem/PhysicsComponent.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgaccelerationvariation.hpp
+	<MessageSystem/Message.hpp>
+
+1433435717 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgvelocityvariation.hpp
+	<MessageSystem/Message.hpp>
+
+1433435957 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\entitydata.cpp
+	<EntitySystem/EntityData.hpp>
+
+1433435902 c:\users\davide\documents\code\spaceballs\include\entitysystem\entitydata.hpp
+
+1435512824 c:\users\davide\documents\code\spaceballs\include\entitysystem\entityfactory.hpp
+	<EntitySystem/Entity.hpp>
+	<EntitySystem/EntityData.hpp>
+	<ResourceSystem/Resources.hpp>
+	<SFML/System/Vector2.hpp>
+	<functional>
+	<map>
+	<typeindex>
+	<memory>
+
+1436033700 source:c:\users\davide\documents\code\spaceballs\source\entitysystem\entityfactory.cpp
+	<EntitySystem/EntityFactory.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<ResourceSystem/Resources.hpp>
+	<EntitySystem/EntitySystem.hpp>
+	<EntitySystem/EDBullet.hpp>
+	<EntitySystem/EDShip.hpp>
+	<EntitySystem/EDSpaceBall.hpp>
+	<EntitySystem/EDSpawner.hpp>
+	<EntitySystem/EDExplosion.hpp>
+	<EntitySystem/EDStaticPicture.hpp>
+	<EntitySystem/EDUfo.hpp>
+	<GameplaySystem/GameplaySystem.hpp>
+	<GameplaySystem/GCBullet.hpp>
+	<GameplaySystem/GCShip.hpp>
+	<GameplaySystem/GCSpaceBall.hpp>
+	<GameplaySystem/GCSpawner.hpp>
+	<GameplaySystem/GCTimedLife.hpp>
+	<GameplaySystem/GCDumbUfo.hpp>
+	<GameplaySystem/GCSmartUfo.hpp>
+	<InputSystem/InputSystem.hpp>
+	<InputSystem/ICPlayerShip.hpp>
+	<PhysicsSystem/PhysicsSystem.hpp>
+	<PhysicsSystem/PCKinematicBody.hpp>
+	<PhysicsSystem/CSAxisAlignedRectangle.hpp>
+	<PhysicsSystem/CSCircle.hpp>
+	<AudioSystem/AudioSystem.hpp>
+	<AudioSystem/ACSoundPlayer.hpp>
+	<AudioSystem/ACSoundEmitter.hpp>
+	<RenderSystem/RenderSystem.hpp>
+	<RenderSystem/RCAnimatedSprite.hpp>
+	<RenderSystem/RCShape.hpp>
+	<RenderSystem/RCSprite.hpp>
+	<RenderSystem/RCGui.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<MessageSystem/MsgCmdAccelerate.hpp>
+	<MessageSystem/MsgCmdStop.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+
+1434288210 c:\users\davide\documents\code\spaceballs\include\entitysystem\edship.hpp
+	<EntitySystem/EntityData.hpp>
+	<ResourceSystem/TextureHolder.hpp>
+
+1435526077 c:\users\davide\documents\code\spaceballs\include\entitysystem\edbullet.hpp
+	<EntitySystem/EntityData.hpp>
+	<ResourceSystem/TextureHolder.hpp>
+	<SFML/System/Vector2.hpp>
+
+1436044626 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcbullet.cpp
+	<GameplaySystem/GCBullet.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<MessageSystem/MsgContact.hpp>
+	<MessageSystem/MsgContactBullet.hpp>
+	<MessageSystem/MsgContactShip.hpp>
+	<MessageSystem/MsgContactSpaceBall.hpp>
+	<MessageSystem/MsgNewLevel.hpp>
+	<EntitySystem/Entity.hpp>
+	<EntitySystem/EDExplosion.hpp>
+	<EntitySystem/EntityFactory.hpp>
+
+1435525992 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcbullet.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+
+1433536908 c:\users\davide\documents\code\spaceballs\include\physicssystem\psconstants.hpp
+	<SFML/System/Vector2.hpp>
+
+1433538003 c:\users\davide\documents\code\spaceballs\include\physicssystem\cscircle.hpp
+	<PhysicsSystem/ContactShape.hpp>
+
+1433538045 source:c:\users\davide\documents\code\spaceballs\source\physicssystem\cscircle.cpp
+	<PhysicsSystem/CSCircle.hpp>
+	<cassert>
+
+1433609472 c:\users\davide\documents\code\spaceballs\include\entitysystem\edspaceball.hpp
+	<EntitySystem/EntityData.hpp>
+	<SFML/System/Vector2.hpp>
+
+1433629398 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcspaceball.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+	<EntitySystem/EDSpaceBall.hpp>
+
+1436044727 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcspaceball.cpp
+	<GameplaySystem/GCSpaceBall.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<MessageSystem/MsgContact.hpp>
+	<MessageSystem/MsgContactBullet.hpp>
+	<MessageSystem/MsgContactShip.hpp>
+	<MessageSystem/MsgContactSpaceBall.hpp>
+	<MessageSystem/MsgSpaceBallDestroyed.hpp>
+	<MessageSystem/MsgSpaceBallCreated.hpp>
+	<EntitySystem/Entity.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<Utilities/Randomizer.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1435526034 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcontactbullet.hpp
+	<MessageSystem/Message.hpp>
+
+1435532255 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcontactship.hpp
+	<MessageSystem/Message.hpp>
+
+1433610510 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcontactspaceball.hpp
+	<MessageSystem/Message.hpp>
+
+1434278452 source:c:\users\davide\documents\code\spaceballs\source\audiosystem\audiocomponent.cpp
+	<AudioSystem/AudioComponent.hpp>
+
+1434278617 c:\users\davide\documents\code\spaceballs\include\audiosystem\audiocomponent.hpp
+	<EntitySystem/Component.hpp>
+
+1433626978 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgplaysound.hpp
+	<MessageSystem/Message.hpp>
+	<ResourceSystem/SoundBufferHolder.hpp>
+
+1434278668 c:\users\davide\documents\code\spaceballs\include\audiosystem\audiosystem.hpp
+	<EntitySystem/GameSystem.hpp>
+	<AudioSystem/AudioComponent.hpp>
+	<SFML/System/Time.hpp>
+
+1433627216 source:c:\users\davide\documents\code\spaceballs\source\audiosystem\audiosystem.cpp
+	<AudioSystem/AudioSystem.hpp>
+
+1436044517 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcspawner.cpp
+	<GameplaySystem/GCSpawner.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<EntitySystem/EDShip.hpp>
+	<EntitySystem/EDSpaceBall.hpp>
+	<MessageSystem/MsgShipDestroyed.hpp>
+	<MessageSystem/MsgSpaceBallDestroyed.hpp>
+	<MessageSystem/MsgUfoDestroyed.hpp>
+	<MessageSystem/MsgSpaceBallCreated.hpp>
+	<MessageSystem/MsgGameOver.hpp>
+	<MessageSystem/MsgTimedPause.hpp>
+	<MessageSystem/MsgSetPose.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<MessageSystem/MsgVarScoreChanged.hpp>
+	<MessageSystem/MsgVarLivesChanged.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+	<MessageSystem/MsgNewLevel.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<Utilities/Randomizer.hpp>
+	<cassert>
+
+1436045196 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcspawner.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+	<EntitySystem/EDUfo.hpp>
+	<RenderSystem/RCLabel.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1434877875 c:\users\davide\documents\code\spaceballs\include\entitysystem\edspawner.hpp
+	<EntitySystem/EDSpawner.hpp>
+	<SFML/System/Vector2.hpp>
+
+1433675823 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgshipdestroyed.hpp
+	<MessageSystem/Message.hpp>
+
+1433692299 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgspaceballdestroyed.hpp
+	<MessageSystem/Message.hpp>
+	<EntitySystem/EDSpaceBall.hpp>
+
+1433676053 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgspaceballcreated.hpp
+	<MessageSystem/Message.hpp>
+
+1433679491 c:\users\davide\documents\code\spaceballs\include\messagesystem\msggameover.hpp
+	<MessageSystem/Message.hpp>
+
+1433692484 c:\users\davide\documents\code\spaceballs\include\rendersystem\rcgui.hpp
+	<RenderSystem/RenderComponent.hpp>
+	<GameplaySystem/GCSpawner.hpp>
+
+1433693073 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rcgui.cpp
+	<RenderSystem/RCGui.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434237531 source:c:\users\davide\documents\code\spaceballs\source\resourcesystem\animatedsprite.cpp
+	<ResourceSystem/AnimatedSprite.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<cassert>
+	<algorithm>
+
+1434237149 c:\users\davide\documents\code\spaceballs\include\resourcesystem\animatedsprite.hpp
+	<ResourceSystem/Animation.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Time.hpp>
+
+1434212497 source:c:\users\davide\documents\code\spaceballs\source\resourcesystem\animation.cpp
+	<ResourceSystem/Animation.hpp>
+	<cassert>
+
+1434212497 c:\users\davide\documents\code\spaceballs\include\resourcesystem\animation.hpp
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<vector>
+	<string>
+
+1434214763 c:\users\davide\documents\code\spaceballs\include\rendersystem\rcanimatedsprite.hpp
+	<RenderSystem/RenderComponent.hpp>
+	<ResourceSystem/AnimatedSprite.hpp>
+
+1434237813 source:c:\users\davide\documents\code\spaceballs\source\rendersystem\rcanimatedsprite.cpp
+	<RenderSystem/RCAnimatedSprite.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434282188 c:\users\davide\documents\code\spaceballs\include\resourcesystem\animationholder.hpp
+	<ResourceSystem/ResourceHolder.hpp>
+	<ResourceSystem/Animation.hpp>
+
+1434238091 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgcmdstop.hpp
+	<MessageSystem/Message.hpp>
+
+1434278402 source:c:\users\davide\documents\code\spaceballs\source\audiosystem\acsoundplayer.cpp
+	<AudioSystem/ACSoundPlayer.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+
+1434278603 c:\users\davide\documents\code\spaceballs\include\audiosystem\acsoundplayer.hpp
+	<AudioSystem/AudioComponent.hpp>
+	<ResourceSystem/SoundBufferHolder.hpp>
+	<SFML/Audio/Sound.hpp>
+	<list>
+
+1434280088 source:c:\users\davide\documents\code\spaceballs\source\audiosystem\acsoundemitter.cpp
+	<AudioSystem/ACSoundEmitter.hpp>
+
+1434280079 c:\users\davide\documents\code\spaceballs\include\audiosystem\acsoundemitter.hpp
+	<AudioSystem/AudioComponent.hpp>
+	<SFML/Audio/Sound.hpp>
+
+1434282479 c:\users\davide\documents\code\spaceballs\include\entitysystem\edexplosion.hpp
+	<EntitySystem/EntityData.hpp>
+
+1434283207 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gctimedlife.cpp
+	<GameplaySystem/GCTimedLife.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+
+1434283113 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gctimedlife.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+
+1434286022 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgsetpose.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Vector2.hpp>
+
+1434286716 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgtimedpause.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Time.hpp>
+
+1434840167 source:c:\users\davide\documents\code\spaceballs\source\application\appstatetimedpause.cpp
+	<Application/AppStateTimedPause.hpp>
+	<Application/AppStateStack.hpp>
+	<Application/AppStatePaused.hpp>
+	<Gui/GuiLabel.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434287275 c:\users\davide\documents\code\spaceballs\include\application\appstatetimedpause.hpp
+	<Application/AppState.hpp>
+	<SFML/System/Time.hpp>
+
+1434288861 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgsetvisible.hpp
+	<MessageSystem/Message.hpp>
+
+1434840650 source:c:\users\davide\documents\code\spaceballs\source\gui\guibutton.cpp
+	<Gui/GuiButton.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1434840449 c:\users\davide\documents\code\spaceballs\include\gui\guibutton.hpp
+	<Gui/GuiComponent.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<memory>
+	<functional>
+	<string>
+
+1436032278 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gsconstants.hpp
+
+1436036877 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\scorerecord.cpp
+	<GameplaySystem/ScoreRecord.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+	<cstdio>
+	<cassert>
+
+1435426108 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\scorerecord.hpp
+	<string>
+	<vector>
+
+1435423877 source:c:\users\davide\documents\code\spaceballs\source\gui\guitextbox.cpp
+	<Gui/GuiTextBox.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1435421988 c:\users\davide\documents\code\spaceballs\include\gui\guitextbox.hpp
+	<Gui/GuiComponent.hpp>
+	<string>
+
+1435512317 c:\users\davide\documents\code\spaceballs\include\application\appstatescorescreen.hpp
+	<Application/AppState.hpp>
+	<Gui/GuiContainer.hpp>
+	<GameplaySystem/ScoreRecord.hpp>
+
+1435518730 source:c:\users\davide\documents\code\spaceballs\source\application\appstatescorescreen.cpp
+	<Application/AppStateScoreScreen.hpp>
+	<Application/AppStateStack.hpp>
+	<Application/AppStateMainMenu.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<Gui/GuiLabel.hpp>
+	<Gui/GuiButton.hpp>
+	<Gui/GuiScore.hpp>
+
+1435508073 source:c:\users\davide\documents\code\spaceballs\source\gui\guiscore.cpp
+	<Gui/GuiScore.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1435445755 c:\users\davide\documents\code\spaceballs\include\gui\guiscore.hpp
+	<Gui/GuiComponent.hpp>
+	<GameplaySystem/ScoreRecord.hpp>
+
+1435506582 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgvarscorechanged.hpp
+	<MessageSystem/Message.hpp>
+
+1435508131 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgvarliveschanged.hpp
+	<MessageSystem/Message.hpp>
+
+1435509948 c:\users\davide\documents\code\spaceballs\include\gui\guilivestrack.hpp
+	<Gui/GuiComponent.hpp>
+
+1435509949 source:c:\users\davide\documents\code\spaceballs\source\gui\guilivestrack.cpp
+	<Gui/GuiLivesTrack.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1435510976 c:\users\davide\documents\code\spaceballs\include\entitysystem\edstaticpicture.hpp
+	<EntitySystem/EntityData.hpp>
+	<ResourceSystem/TextureHolder.hpp>
+
+1435513817 c:\users\davide\documents\code\spaceballs\include\gameworld\gameworld.hpp
+	<ResourceSystem/Resources.hpp>
+	<EntitySystem/EntitySystem.hpp>
+	<InputSystem/InputSystem.hpp>
+	<GameplaySystem/GameplaySystem.hpp>
+	<PhysicsSystem/PhysicsSystem.hpp>
+	<AudioSystem/AudioSystem.hpp>
+	<RenderSystem/RenderSystem.hpp>
+	<EntitySystem/EntityFactory.hpp>
+
+1435515257 source:c:\users\davide\documents\code\spaceballs\source\gameworld\gameworld.cpp
+	<GameWorld/GameWorld.hpp>
+	<EntitySystem/EDSpawner.hpp>
+	<EntitySystem/EDStaticPicture.hpp>
+	<EntitySystem/EDSpaceBall.hpp>
+	<GameplaySystem/GSConstants.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<Utilities/Randomizer.hpp>
+	<vector>
+
+1435514386 source:c:\users\davide\documents\code\spaceballs\source\application\appstatemenubackground.cpp
+	<Application/AppStateMenuBackground.hpp>
+
+1435514270 c:\users\davide\documents\code\spaceballs\include\application\appstatemenubackground.hpp
+	<Application/AppState.hpp>
+	<GameWorld/GameWorld.hpp>
+
+1435517137 c:\users\davide\documents\code\spaceballs\include\resourcesystem\musicplayer.hpp
+	<Utilities/NonCopyable.hpp>
+	<SFML/Audio/Music.hpp>
+	<map>
+	<string>
+
+1435517145 source:c:\users\davide\documents\code\spaceballs\source\resourcesystem\musicplayer.cpp
+	<ResourceSystem/MusicPlayer.hpp>
+	<cassert>
+
+1435526160 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgshipposition.hpp
+	<MessageSystem/Message.hpp>
+	<SFML/System/Vector2.hpp>
+
+1436032536 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcufo.cpp
+	<GameplaySystem/GCUfo.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<MessageSystem/MsgContact.hpp>
+	<MessageSystem/MsgContactBullet.hpp>
+	<MessageSystem/MsgContactShip.hpp>
+	<MessageSystem/MsgContactSpaceBall.hpp>
+	<MessageSystem/MsgShipPosition.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+	<MessageSystem/MsgChangeStatus.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgUfoDestroyed.hpp>
+	<EntitySystem/EDExplosion.hpp>
+	<Utilities/UtilityMethods.hpp>
+
+1436030066 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcufo.hpp
+	<GameplaySystem/GameplayComponent.hpp>
+	<EntitySystem/EDUfo.hpp>
+
+1436030130 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcdumbufo.cpp
+	<GameplaySystem/GCDumbUfo.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<Utilities/Randomizer.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+	<EntitySystem/EDBullet.hpp>
+
+1436030113 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcdumbufo.hpp
+	<GameplaySystem/GCUfo.hpp>
+
+1435531330 c:\users\davide\documents\code\spaceballs\include\entitysystem\edufo.hpp
+	<EntitySystem/EntityData.hpp>
+
+1436030170 source:c:\users\davide\documents\code\spaceballs\source\gameplaysystem\gcsmartufo.cpp
+	<GameplaySystem/GCSmartUfo.hpp>
+	<EntitySystem/EntityFactory.hpp>
+	<MessageSystem/MsgPoseDisplacement.hpp>
+	<MessageSystem/MsgPlaySound.hpp>
+	<EntitySystem/EDBullet.hpp>
+	<Utilities/UtilityMethods.hpp>
+	<Utilities/Randomizer.hpp>
+	<cmath>
+
+1436030112 c:\users\davide\documents\code\spaceballs\include\gameplaysystem\gcsmartufo.hpp
+	<GameplaySystem/GCUfo.hpp>
+
+1436030213 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgufodestroyed.hpp
+	<MessageSystem/Message.hpp>
+	<EntitySystem/EDUfo.hpp>
+
+1436043573 c:\users\davide\documents\code\spaceballs\include\messagesystem\msgnewlevel.hpp
+	<MessageSystem/Message.hpp>
+

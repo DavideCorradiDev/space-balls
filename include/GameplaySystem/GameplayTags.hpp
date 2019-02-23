@@ -1,0 +1,4 @@
+#ifndef GAMEPLAYTAGS_HPP
+#define GAMEPLAYTAGS_HPP
+
+#endif // GAMEPLAYTAGS_HPP

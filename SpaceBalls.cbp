@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SpaceBalls" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SpaceBalls" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SpaceBalls" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="../SFML-2.3.2/include" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add directory="../SFML-2.3.2/lib" />
+		</Linker>
+		<Unit filename="include/Application/AppConstants.hpp" />
+		<Unit filename="include/Application/AppState.hpp" />
+		<Unit filename="include/Application/AppStateGame.hpp" />
+		<Unit filename="include/Application/AppStateGameOver.hpp" />
+		<Unit filename="include/Application/AppStateMainMenu.hpp" />
+		<Unit filename="include/Application/AppStateMenuBackground.hpp" />
+		<Unit filename="include/Application/AppStatePaused.hpp" />
+		<Unit filename="include/Application/AppStateScoreScreen.hpp" />
+		<Unit filename="include/Application/AppStateStack.hpp" />
+		<Unit filename="include/Application/AppStateTimedPause.hpp" />
+		<Unit filename="include/Application/AppStateUnfocused.hpp" />
+		<Unit filename="include/Application/Application.hpp" />
+		<Unit filename="include/AudioSystem/ACSoundEmitter.hpp" />
+		<Unit filename="include/AudioSystem/ACSoundPlayer.hpp" />
+		<Unit filename="include/AudioSystem/AudioComponent.hpp" />
+		<Unit filename="include/AudioSystem/AudioSystem.hpp" />
+		<Unit filename="include/EntitySystem/Component.hpp" />
+		<Unit filename="include/EntitySystem/EDBullet.hpp" />
+		<Unit filename="include/EntitySystem/EDExplosion.hpp" />
+		<Unit filename="include/EntitySystem/EDShip.hpp" />
+		<Unit filename="include/EntitySystem/EDSpaceBall.hpp" />
+		<Unit filename="include/EntitySystem/EDSpawner.hpp" />
+		<Unit filename="include/EntitySystem/EDStaticPicture.hpp" />
+		<Unit filename="include/EntitySystem/EDUfo.hpp" />
+		<Unit filename="include/EntitySystem/Entity.hpp" />
+		<Unit filename="include/EntitySystem/EntityData.hpp" />
+		<Unit filename="include/EntitySystem/EntityFactory.hpp" />
+		<Unit filename="include/EntitySystem/EntitySystem.hpp" />
+		<Unit filename="include/EntitySystem/GameObject.hpp" />
+		<Unit filename="include/EntitySystem/GameSystem.hpp" />
+		<Unit filename="include/EntitySystem/GameSystemBase.hpp" />
+		<Unit filename="include/GameWorld/GameWorld.hpp" />
+		<Unit filename="include/GameplaySystem/GCBullet.hpp" />
+		<Unit filename="include/GameplaySystem/GCDumbUfo.hpp" />
+		<Unit filename="include/GameplaySystem/GCShip.hpp" />
+		<Unit filename="include/GameplaySystem/GCSmartUfo.hpp" />
+		<Unit filename="include/GameplaySystem/GCSpaceBall.hpp" />
+		<Unit filename="include/GameplaySystem/GCSpawner.hpp" />
+		<Unit filename="include/GameplaySystem/GCTimedLife.hpp" />
+		<Unit filename="include/GameplaySystem/GCUfo.hpp" />
+		<Unit filename="include/GameplaySystem/GSConstants.hpp" />
+		<Unit filename="include/GameplaySystem/GameplayComponent.hpp" />
+		<Unit filename="include/GameplaySystem/GameplaySystem.hpp" />
+		<Unit filename="include/GameplaySystem/GameplayTags.hpp" />
+		<Unit filename="include/GameplaySystem/ScoreRecord.hpp" />
+		<Unit filename="include/Gui/GuiButton.hpp" />
+		<Unit filename="include/Gui/GuiComponent.hpp" />
+		<Unit filename="include/Gui/GuiContainer.hpp" />
+		<Unit filename="include/Gui/GuiLabel.hpp" />
+		<Unit filename="include/Gui/GuiLivesTrack.hpp" />
+		<Unit filename="include/Gui/GuiScore.hpp" />
+		<Unit filename="include/Gui/GuiTextBox.hpp" />
+		<Unit filename="include/InputSystem/ICPlayerShip.hpp" />
+		<Unit filename="include/InputSystem/InputCode.hpp" />
+		<Unit filename="include/InputSystem/InputComponent.hpp" />
+		<Unit filename="include/InputSystem/InputSystem.hpp" />
+		<Unit filename="include/MessageSystem/Message.hpp" />
+		<Unit filename="include/MessageSystem/MessageHandler.hpp" />
+		<Unit filename="include/MessageSystem/MsgAccelerationVariation.hpp" />
+		<Unit filename="include/MessageSystem/MsgChangeStatus.hpp" />
+		<Unit filename="include/MessageSystem/MsgCmdAccelerate.hpp" />
+		<Unit filename="include/MessageSystem/MsgCmdAttack.hpp" />
+		<Unit filename="include/MessageSystem/MsgCmdStop.hpp" />
+		<Unit filename="include/MessageSystem/MsgCmdTurnLeft.hpp" />
+		<Unit filename="include/MessageSystem/MsgCmdTurnRight.hpp" />
+		<Unit filename="include/MessageSystem/MsgContact.hpp" />
+		<Unit filename="include/MessageSystem/MsgContactBullet.hpp" />
+		<Unit filename="include/MessageSystem/MsgContactShip.hpp" />
+		<Unit filename="include/MessageSystem/MsgContactSpaceBall.hpp" />
+		<Unit filename="include/MessageSystem/MsgGameOver.hpp" />
+		<Unit filename="include/MessageSystem/MsgNewLevel.hpp" />
+		<Unit filename="include/MessageSystem/MsgPlaySound.hpp" />
+		<Unit filename="include/MessageSystem/MsgPoseDisplacement.hpp" />
+		<Unit filename="include/MessageSystem/MsgSetVisible.hpp" />
+		<Unit filename="include/MessageSystem/MsgShipDestroyed.hpp" />
+		<Unit filename="include/MessageSystem/MsgSpaceBallCreated.hpp" />
+		<Unit filename="include/MessageSystem/MsgSpaceBallDestroyed.hpp" />
+		<Unit filename="include/MessageSystem/MsgTimedPause.hpp" />
+		<Unit filename="include/MessageSystem/MsgUfoCreated.hpp" />
+		<Unit filename="include/MessageSystem/MsgUfoDestroyed.hpp" />
+		<Unit filename="include/MessageSystem/MsgVarLivesChanged.hpp" />
+		<Unit filename="include/MessageSystem/MsgVarScoreChanged.hpp" />
+		<Unit filename="include/MessageSystem/MsgVelocityVariation.hpp" />
+		<Unit filename="include/PhysicsSystem/CSAxisAlignedRectangle.hpp" />
+		<Unit filename="include/PhysicsSystem/CSCircle.hpp" />
+		<Unit filename="include/PhysicsSystem/ContactInformation.hpp" />
+		<Unit filename="include/PhysicsSystem/ContactShape.hpp" />
+		<Unit filename="include/PhysicsSystem/PCKinematicBody.hpp" />
+		<Unit filename="include/PhysicsSystem/PSConstants.hpp" />
+		<Unit filename="include/PhysicsSystem/PhysicsComponent.hpp" />
+		<Unit filename="include/PhysicsSystem/PhysicsSystem.hpp" />
+		<Unit filename="include/RenderSystem/RCAnimatedSprite.hpp" />
+		<Unit filename="include/RenderSystem/RCGui.hpp" />
+		<Unit filename="include/RenderSystem/RCLabel.hpp" />
+		<Unit filename="include/RenderSystem/RCShape.hpp" />
+		<Unit filename="include/RenderSystem/RCSprite.hpp" />
+		<Unit filename="include/RenderSystem/RenderComponent.hpp" />
+		<Unit filename="include/RenderSystem/RenderSystem.hpp" />
+		<Unit filename="include/ResourceSystem/AnimatedSprite.hpp" />
+		<Unit filename="include/ResourceSystem/Animation.hpp" />
+		<Unit filename="include/ResourceSystem/AnimationHolder.hpp" />
+		<Unit filename="include/ResourceSystem/BeveledDisplay.hpp" />
+		<Unit filename="include/ResourceSystem/FontHolder.hpp" />
+		<Unit filename="include/ResourceSystem/MusicPlayer.hpp" />
+		<Unit filename="include/ResourceSystem/ResourceHolder.hpp" />
+		<Unit filename="include/ResourceSystem/Resources.hpp" />
+		<Unit filename="include/ResourceSystem/SoundBufferHolder.hpp" />
+		<Unit filename="include/ResourceSystem/TextureHolder.hpp" />
+		<Unit filename="include/Utilities/NonCopyable.hpp" />
+		<Unit filename="include/Utilities/Randomizer.hpp" />
+		<Unit filename="include/Utilities/UtilityMethods.hpp" />
+		<Unit filename="source/Application/AppState.cpp" />
+		<Unit filename="source/Application/AppStateGame.cpp" />
+		<Unit filename="source/Application/AppStateGameOver.cpp" />
+		<Unit filename="source/Application/AppStateMainMenu.cpp" />
+		<Unit filename="source/Application/AppStateMenuBackground.cpp" />
+		<Unit filename="source/Application/AppStatePaused.cpp" />
+		<Unit filename="source/Application/AppStateScoreScreen.cpp" />
+		<Unit filename="source/Application/AppStateStack.cpp" />
+		<Unit filename="source/Application/AppStateTimedPause.cpp" />
+		<Unit filename="source/Application/AppStateUnfocused.cpp" />
+		<Unit filename="source/Application/Application.cpp" />
+		<Unit filename="source/AudioSystem/ACSoundEmitter.cpp" />
+		<Unit filename="source/AudioSystem/ACSoundPlayer.cpp" />
+		<Unit filename="source/AudioSystem/AudioComponent.cpp" />
+		<Unit filename="source/AudioSystem/AudioSystem.cpp" />
+		<Unit filename="source/EntitySystem/Component.cpp" />
+		<Unit filename="source/EntitySystem/Entity.cpp" />
+		<Unit filename="source/EntitySystem/EntityData.cpp" />
+		<Unit filename="source/EntitySystem/EntityFactory.cpp" />
+		<Unit filename="source/EntitySystem/EntitySystem.cpp" />
+		<Unit filename="source/EntitySystem/GameObject.cpp" />
+		<Unit filename="source/EntitySystem/GameSystem.inl" />
+		<Unit filename="source/EntitySystem/GameSystemBase.cpp" />
+		<Unit filename="source/GameWorld/GameWorld.cpp" />
+		<Unit filename="source/GameplaySystem/GCBullet.cpp" />
+		<Unit filename="source/GameplaySystem/GCDumbUfo.cpp" />
+		<Unit filename="source/GameplaySystem/GCShip.cpp" />
+		<Unit filename="source/GameplaySystem/GCSmartUfo.cpp" />
+		<Unit filename="source/GameplaySystem/GCSpaceBall.cpp" />
+		<Unit filename="source/GameplaySystem/GCSpawner.cpp" />
+		<Unit filename="source/GameplaySystem/GCTimedLife.cpp" />
+		<Unit filename="source/GameplaySystem/GCUfo.cpp" />
+		<Unit filename="source/GameplaySystem/GameplayComponent.cpp" />
+		<Unit filename="source/GameplaySystem/GameplaySystem.cpp" />
+		<Unit filename="source/GameplaySystem/ScoreRecord.cpp" />
+		<Unit filename="source/Gui/GuiButton.cpp" />
+		<Unit filename="source/Gui/GuiComponent.cpp" />
+		<Unit filename="source/Gui/GuiContainer.cpp" />
+		<Unit filename="source/Gui/GuiLabel.cpp" />
+		<Unit filename="source/Gui/GuiLivesTrack.cpp" />
+		<Unit filename="source/Gui/GuiScore.cpp" />
+		<Unit filename="source/Gui/GuiTextBox.cpp" />
+		<Unit filename="source/InputSystem/ICPlayerShip.cpp" />
+		<Unit filename="source/InputSystem/InputComponent.cpp" />
+		<Unit filename="source/InputSystem/InputSystem.cpp" />
+		<Unit filename="source/MessageSystem/Message.cpp" />
+		<Unit filename="source/MessageSystem/MessageHandler.cpp" />
+		<Unit filename="source/PhysicsSystem/CSAxisAlignedRectangle.cpp" />
+		<Unit filename="source/PhysicsSystem/CSCircle.cpp" />
+		<Unit filename="source/PhysicsSystem/ContactInformation.cpp" />
+		<Unit filename="source/PhysicsSystem/ContactShape.cpp" />
+		<Unit filename="source/PhysicsSystem/PCKinematicBody.cpp" />
+		<Unit filename="source/PhysicsSystem/PhysicsComponent.cpp" />
+		<Unit filename="source/PhysicsSystem/PhysicsSystem.cpp" />
+		<Unit filename="source/RenderSystem/RCAnimatedSprite.cpp" />
+		<Unit filename="source/RenderSystem/RCGui.cpp" />
+		<Unit filename="source/RenderSystem/RCLabel.cpp" />
+		<Unit filename="source/RenderSystem/RCShape.cpp" />
+		<Unit filename="source/RenderSystem/RCSprite.cpp" />
+		<Unit filename="source/RenderSystem/RenderComponent.cpp" />
+		<Unit filename="source/RenderSystem/RenderSystem.cpp" />
+		<Unit filename="source/ResourceSystem/AnimatedSprite.cpp" />
+		<Unit filename="source/ResourceSystem/Animation.cpp" />
+		<Unit filename="source/ResourceSystem/BeveledDisplay.cpp" />
+		<Unit filename="source/ResourceSystem/MusicPlayer.cpp" />
+		<Unit filename="source/ResourceSystem/ResourceHolder.inl" />
+		<Unit filename="source/ResourceSystem/Resources.cpp" />
+		<Unit filename="source/Utilities/Randomizer.cpp" />
+		<Unit filename="source/Utilities/UtilityMethods.cpp" />
+		<Unit filename="source/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
